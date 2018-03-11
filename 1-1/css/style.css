@@ -3,6 +3,10 @@
     font-family: Consolas;
     box-sizing: border-box;
 }
+.container {
+    width: 700px;
+    margin: auto;
+}
 .header {
     background: red;
     text-align: center;
