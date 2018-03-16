@@ -1,0 +1,72 @@
+* {
+    font-size: 16px;
+    font-family: Consolas;
+    box-sizing: border-box;
+}
+.container {
+    width: 700px;
+    margin: auto;
+}
+.header {
+    background: red;
+    text-align: center;
+    padding: 15px;
+}
+.header h1 {
+    color: #FFF;
+}
+.create {
+    position: relative;
+}
+.create input {
+    padding: 10px;
+    width: 75%;
+    display: inline-block;
+    border: none;
+}
+.create button {
+    padding: 10px;
+    width: 25%;
+    display: inline-block;
+    border: none;
+    background-color: #eeeeee;
+
+}
+.main {
+    background-color: green;
+}
+.main ul {
+    padding-left: 0;
+    margin: 0;
+}
+.main ul li {
+    list-style: none;
+    background-color: #f9f9f9;
+    padding: 10px 10px 10px 40px;
+    position: relative;
+}
+.main ul li:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+.main ul li .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 15px;
+}
+.main ul li:hover .close {
+    background-color: red;
+    color: white;
+}
+.main ul li.completed {
+    text-decoration: line-through;
+    background-color: #a5a5a5;
+    color: #fff;
+}
+.main ul li.completed:before {
+    content: '';    position: absolute;
+    left: 12px;
+    padding: 10px 15px;
+    background: url('../data/tick.svg') no-repeat top left;
+}
