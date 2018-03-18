@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aaafc4d-6693-47b3-ae5f-e51df2d7b62c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/2-2/js/app.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/2-2/index.html" afterPath="$PROJECT_DIR$/2-2/index.html" />
     </list>
@@ -20,8 +21,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2-2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="55" column="40" lean-forward="false" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+            <state relative-caret-position="408">
+              <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2-2/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1258">
+              <caret line="74" column="1" lean-forward="false" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -44,6 +55,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -57,6 +69,7 @@
         <option value="$PROJECT_DIR$/1-1/index.html" />
         <option value="$PROJECT_DIR$/1-2/index.html" />
         <option value="$PROJECT_DIR$/2-2/css/style.css" />
+        <option value="$PROJECT_DIR$/2-2/js/app.js" />
         <option value="$PROJECT_DIR$/2-2/index.html" />
       </list>
     </option>
@@ -99,12 +112,6 @@
               <item name="UETCodeCamp" type="b2602c69:ProjectViewProjectNode" />
               <item name="UETCodeCamp" type="462c0819:PsiDirectoryNode" />
               <item name="2-2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UETCodeCamp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UETCodeCamp" type="462c0819:PsiDirectoryNode" />
-              <item name="2-2" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,12 +156,12 @@
       <workItem from="1520855874482" duration="5573000" />
       <workItem from="1521136490900" duration="1487000" />
       <workItem from="1521192572897" duration="7098000" />
-      <workItem from="1521336630138" duration="5182000" />
+      <workItem from="1521336630138" duration="5473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19340000" />
+    <option name="totallyTimeSpent" value="19631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -240,10 +247,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2-2/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="1" lean-forward="false" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2-2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="55" column="40" lean-forward="false" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        <state relative-caret-position="408">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding />
         </state>
       </provider>
