@@ -1,6 +1,7 @@
 var btn = document.getElementById('add');
 var  text_todo = document.getElementById('text-todo');
 var mylist = document.getElementById('list');
+setEmptyLocalStogare();
 selectData();
 btn.addEventListener('click', function () {
     addToLocalStorage(text_todo.value, false);
@@ -73,3 +74,13 @@ function setDataLocalStorage(object) {
     var str = JSON.stringify(object);
     localStorage.setItem('array_list', str);
 }
+
+function setEmptyLocalStogare() {
+    if (localStorage.getItem('array_list') === null) {
+        var object = [];
+        setDataLocalStorage(object);
+    }
+}
+
+
+
